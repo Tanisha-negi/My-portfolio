@@ -22,14 +22,6 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  // const socialIcons = [
-  //   <FaLinkedinIn />, 
-  //   <FaXTwitter />,
-  //   <FaInstagram />,
-  //   <AiOutlineMail />,
-  //   <FaGithub />, 
-  // ];
-
   const socialLinks = [
     { icon: <FaLinkedinIn />, href: "https://linkedin.com/in/tanisha-negi19" },
     { icon: <FaXTwitter />, href: "https://twitter.com/tanisha22071603" },
